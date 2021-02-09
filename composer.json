@@ -19,5 +19,12 @@
         "psr-4": {
             "Ubitcorp\\DebugHost\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ubitcorp\\DebugHost\\DebugHostServiceProvider"
+            ]
+        }
     }
 }
