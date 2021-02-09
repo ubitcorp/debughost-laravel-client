@@ -1,0 +1,23 @@
+{
+    "name": "ubitcorp/debughost-laravel-client",
+    "description": "Laravel client for DebugHost API",
+    "keywords": ["debughost", "api", "client"],
+    "homepage": "https://dh.kuzen.net",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gülşah Alıcı",
+            "email": "gulsah.alici@ubit.com.tr",
+            "homepage": "https://gooo.to/gulsah",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Ubitcorp\\DebugHost\\": "src/"
+        }
+    }
+}
